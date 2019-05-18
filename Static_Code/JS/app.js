@@ -50,9 +50,9 @@ filterButton.on("click", function() {
     if (response.length !== 0) {
         populateData(filteredData);
     }
-        else {
-            tbody.append("tr").append("td").text("Your input didn't match any of our data. Try again.");
-        }
+    else {
+        tbody.append("tr").append("td").text("Your input didn't match any of our data. Try again.");
+    }
 
 
 })
